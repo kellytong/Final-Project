@@ -1,0 +1,91 @@
+/*Background color for .top-nav*/
+.top-nav {
+  background-color: #383e47;
+  overflow: hidden;
+}
+
+/*Styling and colorinf links inside .top-nav*/
+.top-nav a {
+  float:left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*change the color of links when hovering*/
+.top-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.top-nav a.active{
+  background-color: #595959;
+  color: #e6e600;
+}
+
+body, html{
+  height: 100%;
+}
+
+.para {
+    /* The image used */
+    background-image: url("lightning.jpeg");
+
+    /* Set a specific height */
+    height: 600px;
+     /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral {
+    /* The image used */
+    background-image: url("L2.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parall {
+    /* The image used */
+    background-image: url("L3.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Placing text in the middle of the image*/
+.lightning-text{
+  font-size: 27px;
+  font: "Lato", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.other-text{
+  font-size: 20px;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: white;
+}
+
+p1{
+  font-size: 25px;
+}
+
+p2{
+  text-indent: 50px;
+}
